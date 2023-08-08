@@ -2,6 +2,7 @@
   "packageRules": [{
     "description": "Use rolling pre-releases for bazel.",
     "matchManagers": ["bazelisk"],
+    "matchPackageNames": ["bazel"],
     "ignoreUnstable": false
   }]
 }
